@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 html {
     background-color: antiquewhite;
     text-align: center;
@@ -11,18 +10,4 @@ header {
 
 body {
     font-family: 'Courier New', Courier, monospace;    
-=======
-html {
-    background-color: antiquewhite;
-    text-align: center;
-}
-
-header {
-    font-family: 'Times New Roman', Times, serif;
-    color: crimson;
-}
-
-body {
-    font-family: 'Courier New', Courier, monospace;    
->>>>>>> 51203e4d764dc3218bd1e16396238cb571be3a98
 }

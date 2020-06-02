@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 html {
     background-color: antiquewhite;
 }
@@ -10,17 +9,4 @@ header {
 body {
 font-family: cursive; 
 margin-left: 50px;
-=======
-html {
-    background-color: antiquewhite;
-}
-
-header {
-    text-align: center;
-}
-
-body {
-font-family: cursive; 
-margin-left: 50px;
->>>>>>> 51203e4d764dc3218bd1e16396238cb571be3a98
 }

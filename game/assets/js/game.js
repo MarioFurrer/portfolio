@@ -1,4 +1,3 @@
-
 var config = {
     type: Phaser.AUTO,
     width: 800,
@@ -124,9 +123,16 @@ function update() {
 
         player.anims.play('turn');
     }
-    if (cursors.up.isDown && player.body.touching.down){
-        player.setVelocityY(-430);
+    const isjustdown = Phaser.Input.Keyboard.JustDown(cursors.up)
+    if (isjustdown && (player.body.touching.down || jumpcount < 2))
+    {
+        player.setVelocityY(-330);
+        ++jumpcount
+        console.log(jumpcount)
+      
     }
+    if (player.body.touching.down && !isjustdown){
+    jumpcount = 0}
 }
 
 
