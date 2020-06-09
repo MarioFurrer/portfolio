@@ -1,0 +1,13 @@
+html {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    color: crimson;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;    
+}
