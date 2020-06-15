@@ -71,7 +71,7 @@ const preguntas = [
       respuestas: {
         a: "Iron man",
         b: "Spiderman 3",
-        c: "Capitán América: El rimer vengador"
+        c: "Capitán América: El primer vengador"
       },
       respuestacorrecta: "b"
     },
